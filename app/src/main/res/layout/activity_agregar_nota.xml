@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jonalnb.notas.AgregarNota">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Nota"
+        android:layout_margin="20dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="40dp"/>
+    <EditText
+        android:id="@+id/aNota"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:hint="Escribir Nota"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/bAgregarN"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="Agregar"
+        android:textColor="#454545"
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
